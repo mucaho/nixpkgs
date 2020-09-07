@@ -22524,6 +22524,8 @@ in
 
   properties-cpp = callPackage ../development/libraries/properties-cpp { };
 
+  protege = callPackage ../applications/science/logic/protege { };
+
   protonmail-bridge = libsForQt512.callPackage ../applications/networking/protonmail-bridge { };
 
   protonvpn-cli = callPackage ../applications/networking/protonvpn-cli { };
